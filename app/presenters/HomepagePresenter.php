@@ -42,7 +42,7 @@ class HomepagePresenter extends BasePresenter
 			['id' => '3', 'name' => 'Group 3'],
 		];
 
-		// create source
+		// create source or got Nette\Database\Table\Selection and create Mesour\DataGrid\Sources\NetteGridSource
 		$source = new \Mesour\DataGrid\Sources\ArrayGridSource($data, [
 			'group' => $groups,
 		]);

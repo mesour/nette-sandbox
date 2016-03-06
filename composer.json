@@ -1,7 +1,7 @@
 {
-	"name": "nette/sandbox",
-	"description": "The sandbox is a pre-packaged Nette Framework project, basic configured structure for your application.",
-	"homepage": "https://nette.org",
+	"name": "mesour/nette-sandbox",
+	"description": "The sandbox is how to use mesour/nette-bridges in a pre-packaged Nette Framework project and basic configured structure for your application.",
+	"homepage": "https://grid.mesour.com",
 	"type": "project",
 	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
 	"authors": [
@@ -12,6 +12,10 @@
 		{
 			"name": "Nette Community",
 			"homepage": "https://nette.org/contributors"
+		},
+		{
+			"name": "Matouš Němec",
+			"homepage": "http://mesour.com"
 		}
 	],
 	"require": {
@@ -31,9 +35,14 @@
 		"nette/utils": "~2.3.0",
 		"latte/latte": "~2.3.0",
 		"tracy/tracy": "~2.3.0",
-		"dg/adminer-custom": "~1.6"
+		"dg/adminer-custom": "~1.6",
+		"mesour/datagrid": "3.0.*@beta",
+		"mesour/array-manager": "^0.0.1",
+		"mesour/nette-bridges": "3.0.*@beta"
 	},
 	"require-dev": {
 		"nette/tester": "~1.3"
-	}
+	},
+	"minimum-stability": "beta",
+	"prefer-stable": true
 }

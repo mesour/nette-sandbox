@@ -39,7 +39,7 @@ class SignFormFactory extends Nette\Object
 
 		$form->addSubmit('send', 'Sign in');
 
-		$form->onSuccess[] = array($this, 'formSucceeded');
+		$form->onSuccess[] = [$this, 'formSucceeded'];
 		return $form;
 	}
 
@@ -47,9 +47,9 @@ class SignFormFactory extends Nette\Object
 	public function formSucceeded(Form $form, $values)
 	{
 		if ($values->remember) {
-			$this->user->setExpiration('14 days', FALSE);
+			$this->user->setExpiration('14 days', false);
 		} else {
-			$this->user->setExpiration('20 minutes', TRUE);
+			$this->user->setExpiration('20 minutes', true);
 		}
 
 		try {

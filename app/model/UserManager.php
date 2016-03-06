@@ -47,9 +47,9 @@ class UserManager extends Nette\Object implements Nette\Security\IAuthenticator
 			throw new Nette\Security\AuthenticationException('The password is incorrect.', self::INVALID_CREDENTIAL);
 
 		} elseif (Passwords::needsRehash($row[self::COLUMN_PASSWORD_HASH])) {
-			$row->update(array(
+			$row->update([
 				self::COLUMN_PASSWORD_HASH => Passwords::hash($password),
-			));
+			]);
 		}
 
 		$arr = $row->toArray();
@@ -67,10 +67,10 @@ class UserManager extends Nette\Object implements Nette\Security\IAuthenticator
 	public function add($username, $password)
 	{
 		try {
-			$this->database->table(self::TABLE_NAME)->insert(array(
+			$this->database->table(self::TABLE_NAME)->insert([
 				self::COLUMN_NAME => $username,
 				self::COLUMN_PASSWORD_HASH => Passwords::hash($password),
-			));
+			]);
 		} catch (Nette\Database\UniqueConstraintViolationException $e) {
 			throw new DuplicateNameException;
 		}
@@ -79,6 +79,6 @@ class UserManager extends Nette\Object implements Nette\Security\IAuthenticator
 }
 
 
-
 class DuplicateNameException extends \Exception
-{}
+{
+}

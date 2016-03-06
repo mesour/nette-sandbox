@@ -1,0 +1,15 @@
+{* This is the welcome page, you can delete it *}
+
+{block content}
+<div id="banner">
+	<h1 n:block=title>Congratulations!</h1>
+</div>
+
+<div id="content">
+
+    <h2>Edit user with ID: {$presenter->getParameter('id')}</h2>
+
+    <a n:href="Homepage:">Back</a>
+
+</div>
+{/block}

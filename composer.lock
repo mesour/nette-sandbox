@@ -125,16 +125,16 @@
         },
         {
             "name": "mesour/button",
-            "version": "3.0.0-beta",
+            "version": "v3.0.1-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/button.git",
-                "reference": "571f85f2d55f1e737642c24f16582e614f4a5e5b"
+                "reference": "ae9d440d18c06343570ec52378f24f789d82ddd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/button/zipball/571f85f2d55f1e737642c24f16582e614f4a5e5b",
-                "reference": "571f85f2d55f1e737642c24f16582e614f4a5e5b",
+                "url": "https://api.github.com/repos/mesour/button/zipball/ae9d440d18c06343570ec52378f24f789d82ddd3",
+                "reference": "ae9d440d18c06343570ec52378f24f789d82ddd3",
                 "shasum": ""
             },
             "require": {
@@ -170,20 +170,20 @@
                 "button",
                 "component"
             ],
-            "time": "2016-03-01 12:53:20"
+            "time": "2016-03-09 11:58:35"
         },
         {
             "name": "mesour/components",
-            "version": "3.0.1-beta",
+            "version": "3.0.2-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/components.git",
-                "reference": "0e689cd19ffa14309a664ab37317827565b604d5"
+                "reference": "95c1b865164e799f1f377bf2d111ce25fdaad2e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/components/zipball/0e689cd19ffa14309a664ab37317827565b604d5",
-                "reference": "0e689cd19ffa14309a664ab37317827565b604d5",
+                "url": "https://api.github.com/repos/mesour/components/zipball/95c1b865164e799f1f377bf2d111ce25fdaad2e0",
+                "reference": "95c1b865164e799f1f377bf2d111ce25fdaad2e0",
                 "shasum": ""
             },
             "require": {
@@ -221,20 +221,20 @@
             "keywords": [
                 "components"
             ],
-            "time": "2016-03-06 00:04:31"
+            "time": "2016-03-13 16:21:30"
         },
         {
             "name": "mesour/datagrid",
-            "version": "3.0.1-beta",
+            "version": "3.0.2-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/DataGrid.git",
-                "reference": "26453084844899e3e2f198bc100a4b999dbccd6c"
+                "reference": "e30e9acef6b94a4aafce549db9ca3b3557d36722"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/DataGrid/zipball/26453084844899e3e2f198bc100a4b999dbccd6c",
-                "reference": "26453084844899e3e2f198bc100a4b999dbccd6c",
+                "url": "https://api.github.com/repos/mesour/DataGrid/zipball/e30e9acef6b94a4aafce549db9ca3b3557d36722",
+                "reference": "e30e9acef6b94a4aafce549db9ca3b3557d36722",
                 "shasum": ""
             },
             "require": {
@@ -252,7 +252,7 @@
             "require-dev": {
                 "doctrine/orm": "^2.5",
                 "latte/latte": "~2.3.0",
-                "mesour/array-manager": "dev-master",
+                "mesour/array-manager": "3.0.*@beta",
                 "nette/database": "~2.3.0",
                 "nette/robot-loader": "~2.3.0",
                 "tracy/tracy": "~2.3.0"
@@ -287,7 +287,7 @@
                 "datagrid",
                 "grid"
             ],
-            "time": "2016-03-05 23:37:47"
+            "time": "2016-03-13 17:19:11"
         },
         {
             "name": "mesour/dropdown",
@@ -340,16 +340,16 @@
         },
         {
             "name": "mesour/filter",
-            "version": "3.0.1-beta",
+            "version": "3.0.2-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/filter.git",
-                "reference": "d5d04c12d48e105380481bdb9151b965006d6c60"
+                "reference": "94ed115b194f13e3469c55bcb8809b098507853a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/filter/zipball/d5d04c12d48e105380481bdb9151b965006d6c60",
-                "reference": "d5d04c12d48e105380481bdb9151b965006d6c60",
+                "url": "https://api.github.com/repos/mesour/filter/zipball/94ed115b194f13e3469c55bcb8809b098507853a",
+                "reference": "94ed115b194f13e3469c55bcb8809b098507853a",
                 "shasum": ""
             },
             "require": {
@@ -360,7 +360,7 @@
             },
             "require-dev": {
                 "doctrine/orm": "^2.5",
-                "mesour/array-manager": "dev-master",
+                "mesour/array-manager": "3.0.*@beta",
                 "nette/database": "~2.3",
                 "nette/tester": "^1.6",
                 "tracy/tracy": "~2.3.0"
@@ -389,7 +389,7 @@
                 "component",
                 "filter"
             ],
-            "time": "2016-03-05 23:10:09"
+            "time": "2016-03-13 17:10:49"
         },
         {
             "name": "mesour/icon",
@@ -637,16 +637,16 @@
         },
         {
             "name": "mesour/table",
-            "version": "v3.0.1-beta",
+            "version": "v3.0.2-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/table.git",
-                "reference": "2b74659009613bbb468d7ff3b6967abfff0241af"
+                "reference": "c693cad51af4014cd696749a9693c160112d9cb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/table/zipball/2b74659009613bbb468d7ff3b6967abfff0241af",
-                "reference": "2b74659009613bbb468d7ff3b6967abfff0241af",
+                "url": "https://api.github.com/repos/mesour/table/zipball/c693cad51af4014cd696749a9693c160112d9cb3",
+                "reference": "c693cad51af4014cd696749a9693c160112d9cb3",
                 "shasum": ""
             },
             "require": {
@@ -683,7 +683,7 @@
                 "mesour",
                 "table"
             ],
-            "time": "2016-03-05 22:46:06"
+            "time": "2016-03-08 12:23:58"
         },
         {
             "name": "nette/application",

@@ -93,10 +93,16 @@ class UserDataGridControl extends BaseGridControl
 			->setMaxWidth(60);
 
 		$grid->addText('name', 'Name');
+
 		$grid->addText('email', 'E-mail');
+
 		$grid->addText('group_name', 'Group');
+
 		$grid->addNumber('amount', 'Amount')
 			->setUnit('CZK');
+
+		$grid->addDate('last_login', 'Last login')
+			->setFormat('Y-m-d - H:i:s');
 
 		$container = $grid->addContainer('test_container', 'Actions');
 

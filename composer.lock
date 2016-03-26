@@ -225,16 +225,16 @@
         },
         {
             "name": "mesour/datagrid",
-            "version": "3.0.2-beta",
+            "version": "v3.0.5-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/DataGrid.git",
-                "reference": "e30e9acef6b94a4aafce549db9ca3b3557d36722"
+                "reference": "e45d849b08921b72dbaaee38fb50a145b894f79f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/DataGrid/zipball/e30e9acef6b94a4aafce549db9ca3b3557d36722",
-                "reference": "e30e9acef6b94a4aafce549db9ca3b3557d36722",
+                "url": "https://api.github.com/repos/mesour/DataGrid/zipball/e45d849b08921b72dbaaee38fb50a145b894f79f",
+                "reference": "e45d849b08921b72dbaaee38fb50a145b894f79f",
                 "shasum": ""
             },
             "require": {
@@ -250,11 +250,14 @@
                 "php": ">=5.5.0"
             },
             "require-dev": {
+                "consistence/coding-standard": "^0.10",
                 "doctrine/orm": "^2.5",
                 "latte/latte": "~2.3.0",
                 "mesour/array-manager": "3.0.*@beta",
                 "nette/database": "~2.3.0",
                 "nette/robot-loader": "~2.3.0",
+                "nette/tester": "^1.6",
+                "slevomat/coding-standard": "^1.0",
                 "tracy/tracy": "~2.3.0"
             },
             "suggest": {
@@ -287,7 +290,7 @@
                 "datagrid",
                 "grid"
             ],
-            "time": "2016-03-13 17:19:11"
+            "time": "2016-03-24 23:38:01"
         },
         {
             "name": "mesour/dropdown",
@@ -340,16 +343,16 @@
         },
         {
             "name": "mesour/filter",
-            "version": "3.0.2-beta",
+            "version": "v3.0.3-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/filter.git",
-                "reference": "94ed115b194f13e3469c55bcb8809b098507853a"
+                "reference": "688a3bb017c5195d108614a6cbd4fc65bcbe696b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/filter/zipball/94ed115b194f13e3469c55bcb8809b098507853a",
-                "reference": "94ed115b194f13e3469c55bcb8809b098507853a",
+                "url": "https://api.github.com/repos/mesour/filter/zipball/688a3bb017c5195d108614a6cbd4fc65bcbe696b",
+                "reference": "688a3bb017c5195d108614a6cbd4fc65bcbe696b",
                 "shasum": ""
             },
             "require": {
@@ -359,10 +362,12 @@
                 "php": ">=5.5.0"
             },
             "require-dev": {
+                "consistence/coding-standard": "^0.10",
                 "doctrine/orm": "^2.5",
                 "mesour/array-manager": "3.0.*@beta",
                 "nette/database": "~2.3",
                 "nette/tester": "^1.6",
+                "slevomat/coding-standard": "^1.0",
                 "tracy/tracy": "~2.3.0"
             },
             "type": "library",
@@ -389,7 +394,7 @@
                 "component",
                 "filter"
             ],
-            "time": "2016-03-13 17:10:49"
+            "time": "2016-03-24 23:20:47"
         },
         {
             "name": "mesour/icon",
@@ -440,16 +445,16 @@
         },
         {
             "name": "mesour/nette-bridges",
-            "version": "3.0.1-beta",
+            "version": "v3.0.2-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/nette-bridges.git",
-                "reference": "0b54b6bcd44ec2fc50c3f51531b951b6d8d5fc4a"
+                "reference": "487c198686a089eaeb9bcdee0b90c7e52435751f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/nette-bridges/zipball/0b54b6bcd44ec2fc50c3f51531b951b6d8d5fc4a",
-                "reference": "0b54b6bcd44ec2fc50c3f51531b951b6d8d5fc4a",
+                "url": "https://api.github.com/repos/mesour/nette-bridges/zipball/487c198686a089eaeb9bcdee0b90c7e52435751f",
+                "reference": "487c198686a089eaeb9bcdee0b90c7e52435751f",
                 "shasum": ""
             },
             "require": {
@@ -482,7 +487,7 @@
                 "nette",
                 "nette bridges"
             ],
-            "time": "2016-03-01 13:20:03"
+            "time": "2016-03-15 01:27:33"
         },
         {
             "name": "mesour/pager",
@@ -583,26 +588,29 @@
         },
         {
             "name": "mesour/sources",
-            "version": "3.0.0-beta",
+            "version": "v3.0.1-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/sources.git",
-                "reference": "7537bc82294d9250eeb5a7fbce7081797b68aaec"
+                "reference": "6868d71ee2f6607a309d22b6599f0fca61815b6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/sources/zipball/7537bc82294d9250eeb5a7fbce7081797b68aaec",
-                "reference": "7537bc82294d9250eeb5a7fbce7081797b68aaec",
+                "url": "https://api.github.com/repos/mesour/sources/zipball/6868d71ee2f6607a309d22b6599f0fca61815b6e",
+                "reference": "6868d71ee2f6607a309d22b6599f0fca61815b6e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0"
             },
             "require-dev": {
+                "consistence/coding-standard": "^0.10",
                 "doctrine/orm": "^2.5",
-                "mesour/array-manager": "dev-master",
+                "mesour/array-manager": "3.0.*@beta",
                 "nette/database": "~2.3",
+                "nette/robot-loader": "^2.3",
                 "nette/tester": "~1.4",
+                "slevomat/coding-standard": "^1.0",
                 "tracy/tracy": "~2.3.0"
             },
             "suggest": {
@@ -633,7 +641,7 @@
                 "component",
                 "sources"
             ],
-            "time": "2016-03-01 12:33:28"
+            "time": "2016-03-24 20:15:03"
         },
         {
             "name": "mesour/table",
@@ -1663,16 +1671,16 @@
     "packages-dev": [
         {
             "name": "nette/tester",
-            "version": "v1.7.0",
+            "version": "v1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/tester.git",
-                "reference": "efbc31ff4ee0bef28da712a726316e8b0b5bf262"
+                "reference": "d97534578e8cf66eabe081e7d5eaa4dd527ab0c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/tester/zipball/efbc31ff4ee0bef28da712a726316e8b0b5bf262",
-                "reference": "efbc31ff4ee0bef28da712a726316e8b0b5bf262",
+                "url": "https://api.github.com/repos/nette/tester/zipball/d97534578e8cf66eabe081e7d5eaa4dd527ab0c8",
+                "reference": "d97534578e8cf66eabe081e7d5eaa4dd527ab0c8",
                 "shasum": ""
             },
             "require": {
@@ -1715,7 +1723,7 @@
                 "testing",
                 "unit"
             ],
-            "time": "2016-02-08 10:30:15"
+            "time": "2016-03-19 14:34:02"
         }
     ],
     "aliases": [],

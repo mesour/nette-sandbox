@@ -11,7 +11,6 @@ namespace App\Components\UserDataGrid;
 use App\Components\BaseGridControl;
 use Mesour\DataGrid\Sources\IGridSource;
 
-
 /**
  * @author Matouš Němec <http://mesour.com>
  *
@@ -150,8 +149,6 @@ class UserDataGridControl extends BaseGridControl
 
 	public function setSource(IGridSource $source)
 	{
-		$source->setPrimaryKey('id');
-
 		parent::setSource($source);
 	}
 

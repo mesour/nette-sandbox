@@ -42,12 +42,22 @@ class HomepagePresenter extends BasePresenter
 			['id' => '3', 'name' => 'Group 3'],
 		];
 
-		// create source or got Nette\Database\Table\Selection and create Mesour\DataGrid\Sources\NetteGridSource
-		$source = new \Mesour\DataGrid\Sources\ArrayGridSource($data, [
+		// create source
+		$source = new \Mesour\DataGrid\Sources\ArrayGridSource('users', 'id', $data, [
 			'group' => $groups,
 		]);
 
-		$source->join('group', 'group_id', 'name', 'group_name');
+		$groupStructure = $source->addTableToStructure('group', 'id');
+		$groupStructure->addNumber('id');
+		$groupStructure->addText('name');
+
+		$dataStrucutre = $source->getDataStructure();
+
+		$source->joinField('group', 'group_id', 'name', 'group_name');
+
+		$dataStrucutre->addDate('last_login');
+		$dataStrucutre->addDate('timestamp');
+		$dataStrucutre->addOneToOne('group_name', 'group', 'name');
 
 		$this['userDataGrid']->setSource($source);
 		$this['userDataGrid']->create();

@@ -95,7 +95,7 @@ class UserDataGridControl extends BaseGridControl
 
 		$grid->addText('email', 'E-mail');
 
-		$grid->addText('group_name', 'Group');
+		$grid->addText('group', 'Group');
 
 		$grid->addNumber('amount', 'Amount')
 			->setUnit('CZK');

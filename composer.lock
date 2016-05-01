@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "98ea6bbad681bc7d0769e736ea8e4e95",
-    "content-hash": "ed52787495e0310b6c4ed346fa64e1b3",
+    "hash": "55117b4bff628db7c32e5ad14739aafb",
+    "content-hash": "f276383997bedabee85e3571e4d6ada7",
     "packages": [
         {
             "name": "dg/adminer-custom",
@@ -28,16 +28,16 @@
         },
         {
             "name": "latte/latte",
-            "version": "v2.3.10",
+            "version": "v2.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/latte.git",
-                "reference": "84d9f6d2541a7b3ca8f9c79d968c43d94643f0c5"
+                "reference": "a337509d08f5622c0baff971346a4a101416842d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/latte/zipball/84d9f6d2541a7b3ca8f9c79d968c43d94643f0c5",
-                "reference": "84d9f6d2541a7b3ca8f9c79d968c43d94643f0c5",
+                "url": "https://api.github.com/repos/nette/latte/zipball/a337509d08f5622c0baff971346a4a101416842d",
+                "reference": "a337509d08f5622c0baff971346a4a101416842d",
                 "shasum": ""
             },
             "require": {
@@ -79,20 +79,20 @@
                 "templating",
                 "twig"
             ],
-            "time": "2016-02-19 21:52:43"
+            "time": "2016-04-10 23:40:55"
         },
         {
             "name": "mesour/array-manager",
-            "version": "v0.0.1",
+            "version": "v3.0.0-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/ArrayManager.git",
-                "reference": "87eab400ae6a0d2aec2ab327606fbd243b410efb"
+                "reference": "03a2f6b72e0fb7404cddd10e6c3aa440850c938e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/ArrayManager/zipball/87eab400ae6a0d2aec2ab327606fbd243b410efb",
-                "reference": "87eab400ae6a0d2aec2ab327606fbd243b410efb",
+                "url": "https://api.github.com/repos/mesour/ArrayManager/zipball/03a2f6b72e0fb7404cddd10e6c3aa440850c938e",
+                "reference": "03a2f6b72e0fb7404cddd10e6c3aa440850c938e",
                 "shasum": ""
             },
             "require": {
@@ -121,29 +121,31 @@
                 "array",
                 "array mange"
             ],
-            "time": "2015-05-10 23:56:42"
+            "time": "2016-03-09 10:27:41"
         },
         {
             "name": "mesour/button",
-            "version": "v3.0.1-beta",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/button.git",
-                "reference": "ae9d440d18c06343570ec52378f24f789d82ddd3"
+                "reference": "32c832a6ee50e69f9e2d1a74ddb5f709171bb9cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/button/zipball/ae9d440d18c06343570ec52378f24f789d82ddd3",
-                "reference": "ae9d440d18c06343570ec52378f24f789d82ddd3",
+                "url": "https://api.github.com/repos/mesour/button/zipball/32c832a6ee50e69f9e2d1a74ddb5f709171bb9cb",
+                "reference": "32c832a6ee50e69f9e2d1a74ddb5f709171bb9cb",
                 "shasum": ""
             },
             "require": {
-                "mesour/components": "3.0.*@beta",
-                "mesour/icon": "3.0.*@beta",
+                "mesour/components": "~3.0.0",
+                "mesour/icon": "~3.0.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
+                "consistence/coding-standard": "^0.10",
                 "nette/tester": "~1.5.0",
+                "slevomat/coding-standard": "^1.0",
                 "tracy/tracy": "~2.3.0"
             },
             "type": "library",
@@ -170,20 +172,20 @@
                 "button",
                 "component"
             ],
-            "time": "2016-03-09 11:58:35"
+            "time": "2016-04-24 10:11:03"
         },
         {
             "name": "mesour/components",
-            "version": "3.0.2-beta",
+            "version": "v3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/components.git",
-                "reference": "95c1b865164e799f1f377bf2d111ce25fdaad2e0"
+                "reference": "6cc99e2eb8d448504dd61c65b3a80a36d5342487"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/components/zipball/95c1b865164e799f1f377bf2d111ce25fdaad2e0",
-                "reference": "95c1b865164e799f1f377bf2d111ce25fdaad2e0",
+                "url": "https://api.github.com/repos/mesour/components/zipball/6cc99e2eb8d448504dd61c65b3a80a36d5342487",
+                "reference": "6cc99e2eb8d448504dd61c65b3a80a36d5342487",
                 "shasum": ""
             },
             "require": {
@@ -191,11 +193,13 @@
                 "php": ">=5.5.0"
             },
             "require-dev": {
+                "consistence/coding-standard": "^0.10",
                 "nette/application": "~2.3",
                 "nette/bootstrap": "~2.3",
                 "nette/di": "~2.3",
                 "nette/robot-loader": "~2.3",
                 "nette/tester": "~1.4",
+                "slevomat/coding-standard": "^1.0",
                 "tracy/tracy": "~2.3"
             },
             "type": "library",
@@ -221,32 +225,33 @@
             "keywords": [
                 "components"
             ],
-            "time": "2016-03-13 16:21:30"
+            "time": "2016-04-21 22:04:20"
         },
         {
             "name": "mesour/datagrid",
-            "version": "v3.0.5-beta",
+            "version": "v3.0.6-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/DataGrid.git",
-                "reference": "e45d849b08921b72dbaaee38fb50a145b894f79f"
+                "reference": "2167cd73e61521f74630c47d7f8087cbf7ef38a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/DataGrid/zipball/e45d849b08921b72dbaaee38fb50a145b894f79f",
-                "reference": "e45d849b08921b72dbaaee38fb50a145b894f79f",
+                "url": "https://api.github.com/repos/mesour/DataGrid/zipball/2167cd73e61521f74630c47d7f8087cbf7ef38a9",
+                "reference": "2167cd73e61521f74630c47d7f8087cbf7ef38a9",
                 "shasum": ""
             },
             "require": {
-                "mesour/button": "3.0.*@beta",
-                "mesour/components": "3.0.*@beta",
-                "mesour/dropdown": "3.0.*@beta",
+                "mesour/button": "~3.0.0",
+                "mesour/components": "~3.0.0",
+                "mesour/dropdown": "~3.0.0",
+                "mesour/editable": "~3.0.0",
                 "mesour/filter": "3.0.*@beta",
-                "mesour/icon": "3.0.*@beta",
-                "mesour/pager": "3.0.*@beta",
-                "mesour/selection": "3.0.*@beta",
-                "mesour/sources": "3.0.*@beta",
-                "mesour/table": "3.0.*@beta",
+                "mesour/icon": "~3.0.0",
+                "mesour/pager": "~3.0.0",
+                "mesour/selection": "~3.0.0",
+                "mesour/sources": "~3.0.0",
+                "mesour/table": "~3.0.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -282,7 +287,7 @@
                     "homepage": "http://mesour.com"
                 }
             ],
-            "description": "Mesour DataGrid is DataGrid for PHP >= 5.5 with options like to inline edit, export to csv, create sub items, sort data using jQuery.ui.nestedSortable and much more.",
+            "description": "Mesour DataGrid is DataGrid for PHP >= 5.5 with options like to inline edit, export to csv, create sub items, sort data using jQuery.ui.sortable and much more.",
             "homepage": "http://grid.mesour.com/",
             "keywords": [
                 "component",
@@ -290,29 +295,33 @@
                 "datagrid",
                 "grid"
             ],
-            "time": "2016-03-24 23:38:01"
+            "time": "2016-05-01 08:24:54"
         },
         {
             "name": "mesour/dropdown",
-            "version": "3.0.1-beta",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/dropdown.git",
-                "reference": "6fd53121c68bcdba62000fb2aca8918f19a885b2"
+                "reference": "2330da4d4f408b83347a8fa50fca7ff55f903e87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/dropdown/zipball/6fd53121c68bcdba62000fb2aca8918f19a885b2",
-                "reference": "6fd53121c68bcdba62000fb2aca8918f19a885b2",
+                "url": "https://api.github.com/repos/mesour/dropdown/zipball/2330da4d4f408b83347a8fa50fca7ff55f903e87",
+                "reference": "2330da4d4f408b83347a8fa50fca7ff55f903e87",
                 "shasum": ""
             },
             "require": {
-                "mesour/button": "3.0.*@beta",
-                "mesour/components": "3.0.*@beta",
-                "mesour/icon": "3.0.*@beta",
+                "mesour/button": "~3.0.0",
+                "mesour/components": "~3.0.0",
+                "mesour/icon": "~3.0.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
+                "consistence/coding-standard": "^0.10",
+                "nette/robot-loader": "^2.3",
+                "nette/tester": "^1.7",
+                "slevomat/coding-standard": "^1.0",
                 "tracy/tracy": "~2.3.0"
             },
             "type": "library",
@@ -334,31 +343,88 @@
                 }
             ],
             "description": "Mesour DropDown component.",
-            "homepage": "http://mesour.com",
+            "homepage": "http://components.mesour.com/version3/component/drop-down/",
             "keywords": [
-                "button",
-                "component"
+                "component",
+                "dropdown"
             ],
-            "time": "2016-03-01 12:47:50"
+            "time": "2016-04-24 10:59:11"
         },
         {
-            "name": "mesour/filter",
-            "version": "v3.0.3-beta",
+            "name": "mesour/editable",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mesour/filter.git",
-                "reference": "688a3bb017c5195d108614a6cbd4fc65bcbe696b"
+                "url": "https://github.com/mesour/editable.git",
+                "reference": "cedc771765604be9ef2ef5e88892a18ddb5659c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/filter/zipball/688a3bb017c5195d108614a6cbd4fc65bcbe696b",
-                "reference": "688a3bb017c5195d108614a6cbd4fc65bcbe696b",
+                "url": "https://api.github.com/repos/mesour/editable/zipball/cedc771765604be9ef2ef5e88892a18ddb5659c7",
+                "reference": "cedc771765604be9ef2ef5e88892a18ddb5659c7",
                 "shasum": ""
             },
             "require": {
-                "mesour/components": "3.0.*@beta",
-                "mesour/icon": "3.0.*@beta",
-                "mesour/sources": "3.0.*@beta",
+                "mesour/button": "~3.0.0",
+                "mesour/components": "~3.0.0",
+                "mesour/modal": "~3.0.0",
+                "mesour/sources": "~3.0.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "consistence/coding-standard": "^0.10",
+                "doctrine/orm": "^2.5",
+                "nette/database": "^2.3",
+                "nette/robot-loader": "^2.3",
+                "nette/tester": "^1.7",
+                "slevomat/coding-standard": "^1.0",
+                "tracy/tracy": "~2.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matouš Němec",
+                    "homepage": "http://mesour.com"
+                }
+            ],
+            "description": "Mesour Editable component.",
+            "homepage": "http://components.mesour.com/component/editable",
+            "keywords": [
+                "component",
+                "editable",
+                "inline edit"
+            ],
+            "time": "2016-04-29 11:25:27"
+        },
+        {
+            "name": "mesour/filter",
+            "version": "v3.0.5-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mesour/filter.git",
+                "reference": "55e0f9af8fb3b6db906ea2c8289c1eb785b6345f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mesour/filter/zipball/55e0f9af8fb3b6db906ea2c8289c1eb785b6345f",
+                "reference": "55e0f9af8fb3b6db906ea2c8289c1eb785b6345f",
+                "shasum": ""
+            },
+            "require": {
+                "mesour/components": "~3.0.0",
+                "mesour/icon": "~3.0.0",
+                "mesour/sources": "~3.0.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
@@ -394,27 +460,31 @@
                 "component",
                 "filter"
             ],
-            "time": "2016-03-24 23:20:47"
+            "time": "2016-04-29 11:26:21"
         },
         {
             "name": "mesour/icon",
-            "version": "3.0.0-beta",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/icon.git",
-                "reference": "bff1074d70f789cabb871cfbc809e329cea96f1a"
+                "reference": "9e3d4469bc1ec7c2063f0dfd1dbe80171bdd2f4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/icon/zipball/bff1074d70f789cabb871cfbc809e329cea96f1a",
-                "reference": "bff1074d70f789cabb871cfbc809e329cea96f1a",
+                "url": "https://api.github.com/repos/mesour/icon/zipball/9e3d4469bc1ec7c2063f0dfd1dbe80171bdd2f4b",
+                "reference": "9e3d4469bc1ec7c2063f0dfd1dbe80171bdd2f4b",
                 "shasum": ""
             },
             "require": {
-                "mesour/components": "3.0.*@beta",
+                "mesour/components": "~3.0.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
+                "consistence/coding-standard": "^0.10",
+                "nette/robot-loader": "^2.3",
+                "nette/tester": "^1.7",
+                "slevomat/coding-standard": "^1.0",
                 "tracy/tracy": "~2.3.0"
             },
             "type": "library",
@@ -441,7 +511,63 @@
                 "component",
                 "icon"
             ],
-            "time": "2016-03-01 12:57:44"
+            "time": "2016-04-24 10:04:50"
+        },
+        {
+            "name": "mesour/modal",
+            "version": "v3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mesour/modal.git",
+                "reference": "b0d218ba1cf6446bc311d6f83eb5fdb804a164e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mesour/modal/zipball/b0d218ba1cf6446bc311d6f83eb5fdb804a164e1",
+                "reference": "b0d218ba1cf6446bc311d6f83eb5fdb804a164e1",
+                "shasum": ""
+            },
+            "require": {
+                "mesour/button": "~3.0.0",
+                "mesour/components": "~3.0.0",
+                "mesour/template": "~3.0.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "consistence/coding-standard": "^0.10",
+                "latte/latte": "^2.3",
+                "nette/robot-loader": "^2.3",
+                "nette/tester": "^1.7",
+                "slevomat/coding-standard": "^1.0",
+                "tracy/tracy": "~2.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matouš Němec",
+                    "homepage": "http://mesour.com"
+                }
+            ],
+            "description": "Mesour Modal component.",
+            "homepage": "http://components.mesour.com/component/modal",
+            "keywords": [
+                "component",
+                "dialog",
+                "mesour",
+                "modal"
+            ],
+            "time": "2016-04-24 21:17:05"
         },
         {
             "name": "mesour/nette-bridges",
@@ -491,24 +617,28 @@
         },
         {
             "name": "mesour/pager",
-            "version": "3.0.1-beta",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/pager.git",
-                "reference": "02fafdae4ca2a609ff35e42f7b4b422c9cefe259"
+                "reference": "fe116c2c8bf02a44df7bbe4c6732861810740727"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/pager/zipball/02fafdae4ca2a609ff35e42f7b4b422c9cefe259",
-                "reference": "02fafdae4ca2a609ff35e42f7b4b422c9cefe259",
+                "url": "https://api.github.com/repos/mesour/pager/zipball/fe116c2c8bf02a44df7bbe4c6732861810740727",
+                "reference": "fe116c2c8bf02a44df7bbe4c6732861810740727",
                 "shasum": ""
             },
             "require": {
-                "mesour/button": "3.0.*@beta",
-                "mesour/components": "3.0.*@beta",
+                "mesour/button": "~3.0.0",
+                "mesour/components": "~3.0.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
+                "consistence/coding-standard": "^0.10",
+                "nette/robot-loader": "^2.3",
+                "nette/tester": "^1.7",
+                "slevomat/coding-standard": "^1.0",
                 "tracy/tracy": "~2.3.0"
             },
             "type": "library",
@@ -536,28 +666,32 @@
                 "mesour",
                 "pager"
             ],
-            "time": "2016-03-05 21:30:51"
+            "time": "2016-04-24 12:07:49"
         },
         {
             "name": "mesour/selection",
-            "version": "3.0.1-beta",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/selection.git",
-                "reference": "41ee82a7e3243072e78a969fe6c660d1659f0553"
+                "reference": "d0290861f5d7a5b98977ca17b80bfe1b2fb6ed25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/selection/zipball/41ee82a7e3243072e78a969fe6c660d1659f0553",
-                "reference": "41ee82a7e3243072e78a969fe6c660d1659f0553",
+                "url": "https://api.github.com/repos/mesour/selection/zipball/d0290861f5d7a5b98977ca17b80bfe1b2fb6ed25",
+                "reference": "d0290861f5d7a5b98977ca17b80bfe1b2fb6ed25",
                 "shasum": ""
             },
             "require": {
-                "mesour/components": "3.0.*@beta",
-                "mesour/dropdown": "3.0.*@beta",
+                "mesour/components": "~3.0.0",
+                "mesour/dropdown": "~3.0.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
+                "consistence/coding-standard": "^0.10",
+                "nette/robot-loader": "^2.3",
+                "nette/tester": "^1.7",
+                "slevomat/coding-standard": "^1.0",
                 "tracy/tracy": "~2.3.0"
             },
             "type": "library",
@@ -584,20 +718,20 @@
                 "component",
                 "selection"
             ],
-            "time": "2016-03-05 23:04:39"
+            "time": "2016-04-24 11:28:32"
         },
         {
             "name": "mesour/sources",
-            "version": "v3.0.1-beta",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/sources.git",
-                "reference": "6868d71ee2f6607a309d22b6599f0fca61815b6e"
+                "reference": "f46a6e801d76bb153de5aa09531371b60b733c76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/sources/zipball/6868d71ee2f6607a309d22b6599f0fca61815b6e",
-                "reference": "6868d71ee2f6607a309d22b6599f0fca61815b6e",
+                "url": "https://api.github.com/repos/mesour/sources/zipball/f46a6e801d76bb153de5aa09531371b60b733c76",
+                "reference": "f46a6e801d76bb153de5aa09531371b60b733c76",
                 "shasum": ""
             },
             "require": {
@@ -641,29 +775,33 @@
                 "component",
                 "sources"
             ],
-            "time": "2016-03-24 20:15:03"
+            "time": "2016-04-29 12:25:00"
         },
         {
             "name": "mesour/table",
-            "version": "v3.0.2-beta",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mesour/table.git",
-                "reference": "c693cad51af4014cd696749a9693c160112d9cb3"
+                "reference": "4d0fb6720a7dbcd69f515d91c376ae82d454005a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mesour/table/zipball/c693cad51af4014cd696749a9693c160112d9cb3",
-                "reference": "c693cad51af4014cd696749a9693c160112d9cb3",
+                "url": "https://api.github.com/repos/mesour/table/zipball/4d0fb6720a7dbcd69f515d91c376ae82d454005a",
+                "reference": "4d0fb6720a7dbcd69f515d91c376ae82d454005a",
                 "shasum": ""
             },
             "require": {
-                "mesour/components": "3.0.*@beta",
-                "mesour/sources": "3.0.*@beta",
+                "mesour/components": "~3.0.0",
+                "mesour/sources": "~3.0.0",
                 "php": ">=5.5.0"
             },
             "require-dev": {
+                "consistence/coding-standard": "^0.10",
                 "mesour/array-manager": "dev-master",
+                "nette/robot-loader": "^2.3",
+                "nette/tester": "^1.7",
+                "slevomat/coding-standard": "^1.0",
                 "tracy/tracy": "~2.3.0"
             },
             "type": "library",
@@ -691,20 +829,74 @@
                 "mesour",
                 "table"
             ],
-            "time": "2016-03-08 12:23:58"
+            "time": "2016-04-29 11:24:40"
         },
         {
-            "name": "nette/application",
-            "version": "v2.3.11",
+            "name": "mesour/template",
+            "version": "v3.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nette/application.git",
-                "reference": "2dd99fc2711812d4f538d4d3f74a31a4aa695e35"
+                "url": "https://github.com/mesour/template.git",
+                "reference": "d535c33227d73b16ac12a84a2a6516e73fb4c025"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/application/zipball/2dd99fc2711812d4f538d4d3f74a31a4aa695e35",
-                "reference": "2dd99fc2711812d4f538d4d3f74a31a4aa695e35",
+                "url": "https://api.github.com/repos/mesour/template/zipball/d535c33227d73b16ac12a84a2a6516e73fb4c025",
+                "reference": "d535c33227d73b16ac12a84a2a6516e73fb4c025",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "consistence/coding-standard": "^0.10",
+                "latte/latte": "^2.3",
+                "nette/tester": "^1.7",
+                "slevomat/coding-standard": "^1.0",
+                "tracy/tracy": "~2.3.0"
+            },
+            "suggest": {
+                "latte/latte": "to use LatteTemplate."
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matouš Němec",
+                    "homepage": "http://mesour.com"
+                }
+            ],
+            "description": "Mesour Template implementations.",
+            "homepage": "http://mesour.com",
+            "keywords": [
+                "component",
+                "mesour",
+                "template"
+            ],
+            "time": "2016-03-26 15:06:10"
+        },
+        {
+            "name": "nette/application",
+            "version": "v2.3.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/application.git",
+                "reference": "bd834c6a97a86d384cb71a9f16d59d78990f61d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/application/zipball/bd834c6a97a86d384cb71a9f16d59d78990f61d8",
+                "reference": "bd834c6a97a86d384cb71a9f16d59d78990f61d8",
                 "shasum": ""
             },
             "require": {
@@ -753,7 +945,7 @@
             ],
             "description": "Nette Application MVC Component",
             "homepage": "https://nette.org",
-            "time": "2016-02-09 11:42:38"
+            "time": "2016-04-06 10:25:42"
         },
         {
             "name": "nette/bootstrap",
@@ -985,16 +1177,16 @@
         },
         {
             "name": "nette/di",
-            "version": "v2.3.9",
+            "version": "v2.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/di.git",
-                "reference": "84520e7a1e4f0370ae52a3cfda09c0a2acc5daf7"
+                "reference": "2e361f237de2c2e0b54ad83716b605180c27f09f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/di/zipball/84520e7a1e4f0370ae52a3cfda09c0a2acc5daf7",
-                "reference": "84520e7a1e4f0370ae52a3cfda09c0a2acc5daf7",
+                "url": "https://api.github.com/repos/nette/di/zipball/2e361f237de2c2e0b54ad83716b605180c27f09f",
+                "reference": "2e361f237de2c2e0b54ad83716b605180c27f09f",
                 "shasum": ""
             },
             "require": {
@@ -1033,7 +1225,7 @@
             ],
             "description": "Nette Dependency Injection Component",
             "homepage": "https://nette.org",
-            "time": "2016-02-08 22:57:43"
+            "time": "2016-03-11 22:33:31"
         },
         {
             "name": "nette/finder",
@@ -1142,16 +1334,16 @@
         },
         {
             "name": "nette/http",
-            "version": "v2.3.4",
+            "version": "v2.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/http.git",
-                "reference": "551f06cba60d3b8e08d0e7f6c19591b59f36f22d"
+                "reference": "24459307b19456706febbff8dbd033e1ff56ba04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/http/zipball/551f06cba60d3b8e08d0e7f6c19591b59f36f22d",
-                "reference": "551f06cba60d3b8e08d0e7f6c19591b59f36f22d",
+                "url": "https://api.github.com/repos/nette/http/zipball/24459307b19456706febbff8dbd033e1ff56ba04",
+                "reference": "24459307b19456706febbff8dbd033e1ff56ba04",
                 "shasum": ""
             },
             "require": {
@@ -1192,20 +1384,20 @@
             ],
             "description": "Nette HTTP Component",
             "homepage": "https://nette.org",
-            "time": "2016-01-20 00:55:41"
+            "time": "2016-04-02 17:09:25"
         },
         {
             "name": "nette/mail",
-            "version": "v2.3.4",
+            "version": "v2.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/mail.git",
-                "reference": "3b8ba96407029d94d83177086bcb5e1fe0046929"
+                "reference": "44491710d30db970e731c3908c491d061a0e22df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/mail/zipball/3b8ba96407029d94d83177086bcb5e1fe0046929",
-                "reference": "3b8ba96407029d94d83177086bcb5e1fe0046929",
+                "url": "https://api.github.com/repos/nette/mail/zipball/44491710d30db970e731c3908c491d061a0e22df",
+                "reference": "44491710d30db970e731c3908c491d061a0e22df",
                 "shasum": ""
             },
             "require": {
@@ -1247,7 +1439,7 @@
             ],
             "description": "Nette Mail: Sending E-mails",
             "homepage": "https://nette.org",
-            "time": "2015-11-29 22:09:25"
+            "time": "2016-04-10 12:50:29"
         },
         {
             "name": "nette/neon",
@@ -1348,16 +1540,16 @@
         },
         {
             "name": "nette/reflection",
-            "version": "v2.3.1",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/reflection.git",
-                "reference": "9c2ed2a29f1f58125a0f19ffc987812d6b17d3e6"
+                "reference": "6c39adc4661f5f7b64be7ee161b8f67d8174da4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/reflection/zipball/9c2ed2a29f1f58125a0f19ffc987812d6b17d3e6",
-                "reference": "9c2ed2a29f1f58125a0f19ffc987812d6b17d3e6",
+                "url": "https://api.github.com/repos/nette/reflection/zipball/6c39adc4661f5f7b64be7ee161b8f67d8174da4d",
+                "reference": "6c39adc4661f5f7b64be7ee161b8f67d8174da4d",
                 "shasum": ""
             },
             "require": {
@@ -1388,16 +1580,16 @@
             "authors": [
                 {
                     "name": "David Grudl",
-                    "homepage": "http://davidgrudl.com"
+                    "homepage": "https://davidgrudl.com"
                 },
                 {
                     "name": "Nette Community",
-                    "homepage": "http://nette.org/contributors"
+                    "homepage": "https://nette.org/contributors"
                 }
             ],
             "description": "Nette PHP Reflection Component",
-            "homepage": "http://nette.org",
-            "time": "2015-07-11 21:34:53"
+            "homepage": "https://nette.org",
+            "time": "2016-03-12 14:57:07"
         },
         {
             "name": "nette/robot-loader",
@@ -1453,16 +1645,16 @@
         },
         {
             "name": "nette/safe-stream",
-            "version": "v2.3.1",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/safe-stream.git",
-                "reference": "bf30db367b51a0932c44dcb9a378927644d48b2e"
+                "reference": "4b9bb3266a537e59b10a2932f05dca47333420fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/safe-stream/zipball/bf30db367b51a0932c44dcb9a378927644d48b2e",
-                "reference": "bf30db367b51a0932c44dcb9a378927644d48b2e",
+                "url": "https://api.github.com/repos/nette/safe-stream/zipball/4b9bb3266a537e59b10a2932f05dca47333420fc",
+                "reference": "4b9bb3266a537e59b10a2932f05dca47333420fc",
                 "shasum": ""
             },
             "require": {
@@ -1472,7 +1664,8 @@
                 "nette/nette": "<2.2"
             },
             "require-dev": {
-                "nette/tester": "~1.0"
+                "nette/tester": "~1.0",
+                "tracy/tracy": "^2.3"
             },
             "type": "library",
             "extra": {
@@ -1494,16 +1687,16 @@
             "authors": [
                 {
                     "name": "David Grudl",
-                    "homepage": "http://davidgrudl.com"
+                    "homepage": "https://davidgrudl.com"
                 },
                 {
                     "name": "Nette Community",
-                    "homepage": "http://nette.org/contributors"
+                    "homepage": "https://nette.org/contributors"
                 }
             ],
             "description": "Nette SafeStream: Atomic Operations",
-            "homepage": "http://nette.org",
-            "time": "2015-07-11 20:59:15"
+            "homepage": "https://nette.org",
+            "time": "2016-03-19 13:06:04"
         },
         {
             "name": "nette/security",
@@ -1559,16 +1752,16 @@
         },
         {
             "name": "nette/utils",
-            "version": "v2.3.7",
+            "version": "v2.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "6f1ed73088c28a24acc9657ca14b3418a270e24b"
+                "reference": "34ca4cd67bb768199aae2879eb8ad0ab016f2d8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/6f1ed73088c28a24acc9657ca14b3418a270e24b",
-                "reference": "6f1ed73088c28a24acc9657ca14b3418a270e24b",
+                "url": "https://api.github.com/repos/nette/utils/zipball/34ca4cd67bb768199aae2879eb8ad0ab016f2d8a",
+                "reference": "34ca4cd67bb768199aae2879eb8ad0ab016f2d8a",
                 "shasum": ""
             },
             "require": {
@@ -1610,7 +1803,7 @@
             ],
             "description": "Nette Utility Classes",
             "homepage": "https://nette.org",
-            "time": "2015-11-30 00:11:35"
+            "time": "2016-03-18 17:36:54"
         },
         {
             "name": "tracy/tracy",
@@ -1730,6 +1923,7 @@
     "minimum-stability": "beta",
     "stability-flags": {
         "mesour/datagrid": 10,
+        "mesour/array-manager": 10,
         "mesour/nette-bridges": 10
     },
     "prefer-stable": true,

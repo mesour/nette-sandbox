@@ -37,9 +37,9 @@ class HomepagePresenter extends BasePresenter
 
 		//create relations
 		$groups = [
-			['id' => '2', 'name' => 'Group 2'],
-			['id' => '1', 'name' => 'Group 1'],
-			['id' => '3', 'name' => 'Group 3'],
+			['id' => '2', 'name' => 'Group 2', 'type' => 'first'],
+			['id' => '1', 'name' => 'Group 1', 'type' => 'second'],
+			['id' => '3', 'name' => 'Group 3', 'type' => 'first'],
 		];
 
 		// create source
@@ -50,6 +50,9 @@ class HomepagePresenter extends BasePresenter
 		$groupStructure = $source->addTableToStructure('group', 'id');
 		$groupStructure->addNumber('id');
 		$groupStructure->addText('name');
+		$groupStructure->addEnum('type')
+			->addValue('first')
+			->addValue('second');
 
 		$dataStrucutre = $source->getDataStructure();
 
@@ -57,7 +60,8 @@ class HomepagePresenter extends BasePresenter
 
 		$dataStrucutre->addDate('last_login');
 		$dataStrucutre->addDate('timestamp');
-		$dataStrucutre->addOneToOne('group_name', 'group', 'name');
+
+		$dataStrucutre->addManyToOne('group', 'group', 'group_id', '{name} ({type})');
 
 		$this['userDataGrid']->setSource($source);
 		$this['userDataGrid']->create();
